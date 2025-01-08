@@ -1,2 +1,5 @@
 # DeepFake_Detection
 Deepfake Detection in Images and Videos with ResNet-50, GANs, and Vision Transformers
+
+
+This project explores a multi-model approach to deepfake detection using ResNet-50, Generative Adversarial Networks (GANs), and Vision Transformers (ViT). Leveraging a diverse set of datasets, including FaceForensics++ and Celeb-DF, the study analyzes the efficacy of each model across various metrics, such as accuracy, precision, recall, F1 score, and computational efficiency. ViT demonstrates a superior capacity to detect manipulated content, achieving a high accuracy, driven by its self-attention mechanisms that capture both local and global dependencies within images. ResNet-50, while notable for its efficient handling of video data, and GANs, known for their adversarial training and ability to synthesize diverse fake content, display strengths but are limited in comparison to ViT’s advanced architecture. This study highlights the need for transformer-based models in deepfake detection tasks requiring precision, adaptability, and robust handling of synthetic media across real-world scenarios. 
